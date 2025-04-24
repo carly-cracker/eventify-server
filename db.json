@@ -1,9 +1,147 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "events": [
+    {
+      "id": "1",
+      "title": "Nairobi Tech Fest",
+      "date": "2025-05-10",
+      "location": "KICC, Nairobi",
+      "description": "Kenya’s biggest gathering for tech startups and developers.",
+      "startTime": "10:00",
+      "endTime": "17:00",
+      "coverPhoto": "https://i.pinimg.com/236x/93/a7/6c/93a76c62c8caa7431378c8eb0974d9bf.jpg",
+      "tickets": 100,
+      "price": 500
+    },
+    {
+      "id": "2",
+      "title": "Lamu Cultural Festival",
+      "date": "2025-06-20",
+      "location": "Lamu Island",
+      "description": "Celebrating coastal traditions with music, food, and dhow races.",
+      "startTime": "09:00",
+      "endTime": "18:00",
+      "coverPhoto": "https://kubwaadvocates.com/wp-content/uploads/2024/11/Lamu-Cultural-Fest.jpg",
+      "tickets": 150,
+      "price": 800
+    },
+    {
+      "id": "3",
+      "title": "Food & Wine Expo",
+      "date": "2025-07-05",
+      "location": "Sarit Expo Centre",
+      "description": "Taste the best from Kenya’s food & beverage scene.",
+      "startTime": "11:00",
+      "endTime": "20:00",
+      "coverPhoto": "https://i.pinimg.com/236x/cc/67/b3/cc67b3f86441c9036cc36517fd86630a.jpg",
+      "tickets": 200,
+      "price": 1000
+    },
+    {
+      "id": "4",
+      "title": "Safari Rally Watch Party",
+      "date": "2025-07-15",
+      "location": "Naivasha",
+      "description": "Watch the iconic rally cars zoom through Naivasha.",
+      "startTime": "08:00",
+      "endTime": "14:00",
+      "coverPhoto": "https://i.pinimg.com/236x/1d/02/37/1d02371067922c35ccf2283e3d0261c6.jpg",
+      "tickets": 80,
+      "price": 300
+    },
+    {
+      "id": "5",
+      "title": "Live Acoustic Night",
+      "date": "2025-08-02",
+      "location": "Alchemist Bar, Nairobi",
+      "description": "Chilled acoustic performances from rising local stars.",
+      "startTime": "18:00",
+      "endTime": "22:00",
+      "coverPhoto": "https://i.pinimg.com/236x/4f/d6/b2/4fd6b25bf67b1eec8b0b6db772e3ddc7.jpg",
+      "tickets": 119,
+      "price": 600
+    },
+    {
+      "id": "6",
+      "title": "Mombasa Comic Con",
+      "date": "2025-08-20",
+      "location": "Wild Waters, Mombasa",
+      "description": "Kenya's geek culture extravaganza returns!",
+      "startTime": "10:00",
+      "endTime": "19:00",
+      "coverPhoto": "public/photo_2025-04-23_22-34-30.jpg",
+      "tickets": 250,
+      "price": 1200
+    },
+    {
+      "id": "7",
+      "title": "Nakuru Farmer's Market",
+      "date": "2025-09-15",
+      "location": "Nakuru Showgrounds",
+      "description": "Explore fresh produce, homemade goods, and live demos.",
+      "startTime": "07:00",
+      "endTime": "15:00",
+      "coverPhoto": "https://i.pinimg.com/236x/65/3a/4d/653a4dc83f04d912aa9d204201fb7139.jpg",
+      "tickets": 300,
+      "price": 100
+    },
+    {
+      "id": "8",
+      "title": "AI & Robotics Expo",
+      "date": "2025-10-10",
+      "location": "Strathmore University",
+      "description": "A showcase of student and startup innovation in AI and robotics.",
+      "startTime": "09:30",
+      "endTime": "16:30",
+      "coverPhoto": "https://i.pinimg.com/474x/d6/92/fb/d692fb483e1cd2d792bac3b460e478c1.jpg",
+      "tickets": 68,
+      "price": 1500
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "bookings": [
+    {
+      "id": "1",
+      "eventId": 1,
+      "name": "Stephen Ngochi",
+      "email": "stephen@example.com",
+      "phoneNo": "0712345678",
+      "noOfTickets": 2,
+      "bookingTime": "2025-04-22T09:00:00Z"
+    },
+    {
+      "id": "2",
+      "eventId": 2,
+      "name": "Joy Mwikali",
+      "email": "joymwikali@gmail.com",
+      "phoneNo": "0722123456",
+      "noOfTickets": 3,
+      "bookingTime": "2025-04-21T15:20:00Z"
+    },
+    {
+      "id": "3",
+      "eventId": 3,
+      "name": "Brian Otieno",
+      "email": "brianotieno@yahoo.com",
+      "phoneNo": "0733987654",
+      "noOfTickets": 1,
+      "bookingTime": "2025-04-20T18:45:00Z"
+    },
+    {
+      "id": "04aa",
+      "name": "John",
+      "email": "John@gmail.com",
+      "phoneNo": "0729296548",
+      "noOfTickets": 1,
+      "eventId": "5",
+      "bookingTime": "2025-04-24T00:01:36.668Z"
+    },
+    {
+      "id": "cb11",
+      "name": "john",
+      "email": "johnkims298@gmail.com",
+      "phoneNo": "0723455671",
+      "noOfTickets": "2",
+      "eventId": "8",
+      "bookingTime": "2025-04-24T06:27:04.242Z"
+    }
+  ]
 }
